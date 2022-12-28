@@ -30,7 +30,7 @@ export default function Home() {
           <div >
             <img className="mx-auto md:mx-0 mt-2 md:mt-0 w-28 md:w-72" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt=""/>
             <div className=''>
-              <p className="text-sm md:text-3xl md:-mt-2 md:ml-8 md:w-11/12">Facebook helps you connect and share with the people in your life.</p>
+              <p className="text-sm md:text-3xl md:-mt-2 md:ml-8 md:w-10/12">Facebook helps you connect and share with the people in your life.</p>
             </div>
           </div>
 

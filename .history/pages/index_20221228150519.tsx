@@ -30,7 +30,7 @@ export default function Home() {
           <div >
             <img className="mx-auto md:mx-0 mt-2 md:mt-0 w-28 md:w-72" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt=""/>
             <div className=''>
-              <p className="text-sm md:text-3xl md:-mt-2 md:ml-8 md:w-11/12">Facebook helps you connect and share with the people in your life.</p>
+              <p className="text-sm md:text-3xl md:-mt-2 md:ml-8 md:w-full">Facebook helps you connect and share with the people in your life.</p>
             </div>
           </div>
 
@@ -41,19 +41,19 @@ export default function Home() {
 
         {/* Right Page */}
         <div className='md:w-1/2'>
-        <div className="right mt-2 w-full md:pt-5 md:w-8/12 md:-mt-10 rounded-lg md:bg-white mx-auto md:ml-9 relative md:shadow-xl">
+        <div className="right mt-2 w-full md:pt-5 md:w-8/12 md:-mt-10 rounded-lg md:bg-white mx-auto md:ml-9 relative md:shadow-lg">
             <div className="container flex flex-col px-4">
 
 
-                <input name='email' id='email' className="px-3 h-11 md:h-14 placeholder:text-gray-500 text-black bg-gray-100 md:bg-white border border-1 border-gray-300 text-sm md:text-base rounded-sm md:rounded-lg outline-1 outline-orange-300 md:focus:outline-blue-700" type="text" placeholder="Email address or phone number"/>
-                <input name='password' id='password' className="px-3 h-11 md:h-14 placeholder:text-gray-500 text-black bg-gray-100 md:bg-white mt-2  border border-1 border-gray-300 text-base rounded-sm md:rounded-lg outline-1 outline-orange-300 md:focus:outline-blue-700" type="password" placeholder="Password"/>
+                <input className="px-3 h-11 md:h-14 placeholder:text-gray-600 text-black bg-gray-100 md:bg-white border border-1 border-gray-300 text-sm md:text-base rounded-sm md:rounded-lg outline-1 outline-orange-300 md:focus:outline-blue-700" type="text" placeholder="Email address or phone number"/>
+                <input className="px-3 h-11 md:h-14 placeholder:text-gray-600 text-black bg-gray-100 md:bg-white mt-2  border border-1 border-gray-300 text-base rounded-sm md:rounded-lg outline-1 outline-orange-300 md:focus:outline-blue-700" type="password" placeholder="Password"/>
 
 
 
-                <button className="bg-blue-600 bg-opacity-90 text-lg text-white py-2 md:py-3 rounded-md mt-2 font-bold hover:bg-blue-600">Log In</button>
+                <button className="bg-blue-600 bg-opacity-90 text-lg text-white py-2 rounded-md mt-2 font-bold hover:bg-blue-600">Log In</button>
                 <span className="mx-auto text-blue-600 font-normal text-sm my-2 cursor-pointer hover:underline">Forgotten password?</span>
                 <hr className="my-2"/>
-                <button className="bg-green-600 w-44 md:w-48 text-center mx-auto text-sm md:text-lg text-white py-2 rounded-md my-7 font-bold hover:bg-green-600">Create New Account</button>
+                <button className="bg-green-600 w-44 text-center mx-auto text-sm text-white py-2 rounded-md my-7 font-bold hover:bg-green-600">Create New Account</button>
 
                 <div className='md:visible'>
                 <span className="absolute -bottom-11 text-center text-sm ml-7"><span className="font-bold hover:underline hover:cursor-pointer">Create a Page </span>for a celebrity, brand or business.</span>
