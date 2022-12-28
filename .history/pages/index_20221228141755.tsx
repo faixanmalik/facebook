@@ -55,14 +55,12 @@ export default function Home() {
             </div>
 
           {/* languages */}
-          <div className='container mt-24 w-9/12 mx-auto text-xs font-bold  flex space-x-16'>
-              <div className='w-1/3 space-y-2 text-slate-400 text-center'>
+          <div className='container mt-20 w-9/12 mx-auto text-xs font-bold  flex space-x-16'>
+              <div className='w-1/3 space-y-2 text-slate-400 text-center border-2 border-red-700'>
                 <h1>English (UK)</h1>
                 <h1>English (US)</h1>
-                <h1>Espanol</h1>
               </div>
-              <div className='w-1/3 space-y-2 text-slate-400 text-center'>
-                <h1>Purtagal</h1>
+              <div className='w-1/3 space-y-2 text-slate-400 text-center border-2 border-red-700'>
                 <h1>Urdu</h1>
                 <h1>Hindi</h1>
               </div>

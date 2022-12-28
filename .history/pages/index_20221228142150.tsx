@@ -57,7 +57,7 @@ export default function Home() {
           {/* languages */}
           <div className='container mt-24 w-9/12 mx-auto text-xs font-bold  flex space-x-16'>
               <div className='w-1/3 space-y-2 text-slate-400 text-center'>
-                <h1>English (UK)</h1>
+                <h1'>English (UK)</h1>
                 <h1>English (US)</h1>
                 <h1>Espanol</h1>
               </div>

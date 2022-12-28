@@ -55,29 +55,16 @@ export default function Home() {
             </div>
 
           {/* languages */}
-          <div className='container mt-24 w-9/12 mx-auto text-xs font-bold  flex space-x-16'>
-              <div className='w-1/3 space-y-2 text-slate-400 text-center'>
+          <div >
+              <div>
                 <h1>English (UK)</h1>
                 <h1>English (US)</h1>
-                <h1>Espanol</h1>
               </div>
-              <div className='w-1/3 space-y-2 text-slate-400 text-center'>
-                <h1>Purtagal</h1>
+              <div>
                 <h1>Urdu</h1>
                 <h1>Hindi</h1>
               </div>
-          </div>
-
-          {/* Footer */}
-          <div className='text-xs text-slate-500'>
-            <div className='flex justify-center my-4 space-x-3'>
-                <h1>About</h1>
-                <h1>Help</h1>
-                <h1>More</h1>
-            </div>
-            <div className='text-center'>
-              Meta @ 2022
-            </div>
+              
           </div>
 
         </div>

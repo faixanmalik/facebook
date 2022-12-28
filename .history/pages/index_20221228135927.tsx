@@ -47,41 +47,10 @@ export default function Home() {
                 <button className="bg-blue-600 bg-opacity-90 text-lg text-white py-2 rounded-md mt-2 font-bold hover:bg-blue-600">Log In</button>
                 <span className="mx-auto text-blue-600 font-normal text-sm my-2 cursor-pointer hover:underline">Forgotten password?</span>
                 <hr className="my-2"/>
-                <button className="bg-green-600 w-44 text-center mx-auto text-sm text-white py-2 rounded-md my-7 font-bold hover:bg-green-600">Create New Account</button>
-
-
-                {/* <span className="absolute -bottom-11 text-center text-sm ml-7"><span className="font-bold hover:underline hover:cursor-pointer">Create a Page </span>for a celebrity, brand or business.</span> */}
-
+                <button className="bg-green-600 w-44 mx-auto text-sm text-white py-2 rounded-md my-7 font-bold hover:bg-green-600">Create New Account</button>
+                <span className="absolute -bottom-11 text-center text-sm ml-7"><span className="font-bold hover:underline hover:cursor-pointer">Create a Page </span>for a celebrity, brand or business.</span>
             </div>
-
-          {/* languages */}
-          <div className='container mt-24 w-9/12 mx-auto text-xs font-bold  flex space-x-16'>
-              <div className='w-1/3 space-y-2 text-slate-400 text-center'>
-                <h1>English (UK)</h1>
-                <h1>English (US)</h1>
-                <h1>Espanol</h1>
-              </div>
-              <div className='w-1/3 space-y-2 text-slate-400 text-center'>
-                <h1>Purtagal</h1>
-                <h1>Urdu</h1>
-                <h1>Hindi</h1>
-              </div>
-          </div>
-
-          {/* Footer */}
-          <div className='text-xs text-slate-500'>
-            <div className='flex justify-center my-4 space-x-3'>
-                <h1>About</h1>
-                <h1>Help</h1>
-                <h1>More</h1>
-            </div>
-            <div className='text-center'>
-              Meta @ 2022
-            </div>
-          </div>
-
         </div>
-
 
 
 
